@@ -11,7 +11,7 @@ import pandas as pd
 import warnings
 #from google.colab import files
 warnings.filterwarnings('ignore')
-df = pd.read_csv("Online_Retail.csv")
+df = pd.read_csv("https://drive.google.com/file/d/1bOeQoTWC_YEjMwceFV2Y8u46TTmYIJTE/view?usp=share_link")
 df.head()
 df1 = df
 
