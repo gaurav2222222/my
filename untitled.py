@@ -8,9 +8,8 @@ Original file is located at
 """
 
 import pandas as pd
-!pip install google-colab
 import warnings
-from google.colab import files
+#from google.colab import files
 warnings.filterwarnings('ignore')
 df = pd.read_csv("Online_Retail.csv")
 df.head()
